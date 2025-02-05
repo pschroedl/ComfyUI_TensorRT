@@ -15,3 +15,7 @@ Repository = "https://github.com/comfyanonymous/ComfyUI_TensorRT"
 PublisherId = "comfy"
 DisplayName = "ComfyUI_TensorRT"
 Icon = ""
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["comfyui_tensorrt*"]
